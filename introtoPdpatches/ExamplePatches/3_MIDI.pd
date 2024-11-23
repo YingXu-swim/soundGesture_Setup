@@ -1,0 +1,12 @@
+#N canvas 614 176 450 300 10;
+#X obj 35 42 makenote 80 500;
+#X obj 36 113 noteout 1;
+#X text 31 88 note;
+#X text 40 97 velocity;
+#X text 86 89 channel;
+#X msg 31 8 60;
+#X floatatom 72 8 5 0 0 0 - - -;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 5 0 0 0;
+#X connect 6 0 0 0;

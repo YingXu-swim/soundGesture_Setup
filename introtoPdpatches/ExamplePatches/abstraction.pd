@@ -1,0 +1,7 @@
+#N canvas 0 22 450 300 10;
+#X text 157 34 abstraction;
+#X obj 105 35 inlet;
+#X obj 104 183 print;
+#X msg 104 145 hello world;
+#X connect 1 0 3 0;
+#X connect 3 0 2 0;
